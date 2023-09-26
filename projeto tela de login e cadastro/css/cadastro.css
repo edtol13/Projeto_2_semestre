@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/montanha2.png);
+    background-size: cover;
+}
+#formulario{
+    position: absolute;
+    left: 30%;
+    border-radius: 6px;
+    margin-top: 1%;
+    width: 45%;
+    height: 95%;
+    background-color: #ffffff55;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 1px 1px 3px 3px #12142760;
+
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin-top: 3%;
+}
+img{
+    width: 70px;
+    height: 70px;
+    margin-top: 2%;
+}
+input{
+    display:flexbox;    
+    margin-top: 3%;
+    margin-left: 15px;    
+    width: 78%;
+    padding: 5px;
+    border: 0;
+    border-bottom: 3px solid #272262;
+    background-color: transparent;    
+    outline: none;
+    font-size: 18px;
+}
+::placeholder{
+    font-size: 16px;
+    color: #272262;
+}
+button{
+    margin-left: 8px;
+    margin-top: 15px;    
+    width: 25%;
+    padding: 10px;
+    border-color: #272262;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+}
+#cpf,#tel_fixo,#tel_cel,#nasc,#senha,#re_senha{
+    display:flexbox;    
+    margin-top: 3%;
+    margin-left: 15px;    
+    width: 36%;
+    padding: 10px 0 0 15px;
+    border: 0;
+    border-bottom: 3px solid #272262;
+    background-color: transparent;    
+    outline: none;
+    font-size: 18px;
+}
+.sexo{
+    display:flexbox;    
+    margin-top: 3%;
+    margin-left: 15px;    
+    width: 36%;
+    padding: 5px;
+    border: 0;
+    border-bottom: 3px solid #272262;
+    background-color: transparent;    
+    outline: none;
+    font-size: 18px;
+}

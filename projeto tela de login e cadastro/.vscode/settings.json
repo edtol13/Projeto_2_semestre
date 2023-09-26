@@ -1,0 +1,6 @@
+{
+    "github.branchProtection": false,
+    "github.gitAuthentication": false,
+    "html.autoClosingTags": false,
+    "html.autoCreateQuotes": false
+}
